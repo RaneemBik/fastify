@@ -12,25 +12,32 @@ export function FolderStructureSlide() {
 │   └── database.js
 ├── controllers/        # Business logic
 │   └── userController.js
+├── schemas/            # Data validation schemas
+│   └── userSchema.js
 └── services/           # Service layer
     └── userService.js`;
   const explanations = [
-  {
-    name: 'routes/',
-    desc: 'Define API endpoints'
-  },
-  {
-    name: 'plugins/',
-    desc: 'Shared functionality'
-  },
-  {
-    name: 'controllers/',
-    desc: 'Handle requests'
-  },
-  {
-    name: 'services/',
-    desc: 'Business logic layer'
-  }];
+    {
+      name: 'routes/',
+      desc: 'Define API endpoints'
+    },
+    {
+      name: 'plugins/',
+      desc: 'Shared functionality'
+    },
+    {
+      name: 'controllers/',
+      desc: 'Handle requests'
+    },
+    {
+      name: 'schemas/',
+      desc: 'Data validation and type schemas'
+    },
+    {
+      name: 'services/',
+      desc: 'Business logic layer'
+    }
+  ];
 
   return (
     <SlideLayout

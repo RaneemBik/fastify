@@ -14,12 +14,12 @@ import { BestPracticesSlide } from './slides/BestPracticesSlide';
 import { FolderStructureSlide } from './slides/FolderStructureSlide';
 import { ProjectSetupSlide } from './slides/ProjectSetupSlide';
 import { DemoCodeSlide } from './slides/DemoCodeSlide';
-import { RunDemoSlide } from './slides/RunDemoSlide';
-import { WhatDemoDoesSlide } from './slides/WhatDemoDoesSlide';
+// import { RunDemoSlide } from './slides/RunDemoSlide';
+// import { WhatDemoDoesSlide } from './slides/WhatDemoDoesSlide';
 import { ComparisonIntroSlide } from './slides/ComparisonIntroSlide';
 import { ComparisonTableSlide } from './slides/ComparisonTableSlide';
 import { KeyDifferencesSlide } from './slides/KeyDifferencesSlide';
-import { SummarySlide } from './slides/SummarySlide';
+// import { SummarySlide } from './slides/SummarySlide';
 import { QuestionsSlide } from './slides/QuestionsSlide';
 
 const slides = [
@@ -36,12 +36,12 @@ BestPracticesSlide,
 FolderStructureSlide,
 ProjectSetupSlide,
 DemoCodeSlide,
-RunDemoSlide,
-WhatDemoDoesSlide,
+// RunDemoSlide,
+// WhatDemoDoesSlide,
 ComparisonIntroSlide,
 ComparisonTableSlide,
 KeyDifferencesSlide,
-SummarySlide,
+// SummarySlide,
 QuestionsSlide];
 
 export function Presentation() {
