@@ -44,9 +44,9 @@ export function FolderStructureSlide() {
       title="Recommended Folder Structure"
       subtitle="Organize Your Code">
       
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-        <div className="lg:col-span-4">
-          <CodeBlock code={structure} language="text" className="!text-base !p-8" />
+      <div className="flex flex-col lg:flex-row gap-8 w-full">
+        <div className="flex-1">
+          <CodeBlock code={structure} language="text" className="!text-lg !p-12 !min-h-[420px] !w-full" />
         </div>
         <motion.div
           initial={{
@@ -62,25 +62,22 @@ export function FolderStructureSlide() {
             duration: 0.5,
             ease: 'easeOut'
           }}
-          className="lg:col-span-2 flex flex-col justify-center gap-4">
-          
+          className="flex flex-col justify-center gap-4 min-w-[220px]">
           {explanations.map((item, i) =>
-          <div
-            key={i}
-            className="bg-slate-800/40 border border-slate-700/50 p-4 rounded-xl flex items-start gap-4">
-            
-              <FolderIcon
-              className="w-5 h-5 text-cyan-400 mt-0.5"
-              strokeWidth={1.5} />
-            
-              <div>
-                <strong className="text-white font-medium block">
-                  {item.name}
-                </strong>
-                <span className="text-slate-400 text-sm font-light">
-                  {item.desc}
-                </span>
-              </div>
+            <div
+              key={i}
+              className="bg-slate-800/40 border border-slate-700/50 p-4 rounded-xl flex items-start gap-4">
+                <FolderIcon
+                  className="w-5 h-5 text-cyan-400 mt-0.5"
+                  strokeWidth={1.5} />
+                <div>
+                  <strong className="text-white font-medium block">
+                    {item.name}
+                  </strong>
+                  <span className="text-slate-400 text-sm font-light">
+                    {item.desc}
+                  </span>
+                </div>
             </div>
           )}
         </motion.div>

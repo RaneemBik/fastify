@@ -18,7 +18,7 @@ import { DemoCodeSlide } from './slides/DemoCodeSlide';
 // import { WhatDemoDoesSlide } from './slides/WhatDemoDoesSlide';
 // import { ComparisonIntroSlide } from './slides/ComparisonIntroSlide';
 import { ComparisonTableSlide } from './slides/ComparisonTableSlide';
-import { KeyDifferencesSlide } from './slides/KeyDifferencesSlide';
+//import { KeyDifferencesSlide } from './slides/KeyDifferencesSlide';
 // import { SummarySlide } from './slides/SummarySlide';
 import { QuestionsSlide } from './slides/QuestionsSlide';
 
@@ -40,7 +40,7 @@ DemoCodeSlide,
 // WhatDemoDoesSlide,
 // ComparisonIntroSlide,
 ComparisonTableSlide,
-KeyDifferencesSlide,
+// KeyDifferencesSlide,
 // SummarySlide,
 QuestionsSlide];
 
