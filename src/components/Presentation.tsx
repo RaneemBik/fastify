@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useLayoutEffect, useRef } from 'react';
+import { useEffect, useState, useLayoutEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 import { TitleSlide } from './slides/TitleSlide';
@@ -14,12 +14,7 @@ import { BestPracticesSlide } from './slides/BestPracticesSlide';
 import { FolderStructureSlide } from './slides/FolderStructureSlide';
 import { ProjectSetupSlide } from './slides/ProjectSetupSlide';
 import { DemoCodeSlide } from './slides/DemoCodeSlide';
-// import { RunDemoSlide } from './slides/RunDemoSlide';
-// import { WhatDemoDoesSlide } from './slides/WhatDemoDoesSlide';
-// import { ComparisonIntroSlide } from './slides/ComparisonIntroSlide';
 import { ComparisonTableSlide } from './slides/ComparisonTableSlide';
-//import { KeyDifferencesSlide } from './slides/KeyDifferencesSlide';
-// import { SummarySlide } from './slides/SummarySlide';
 import { QuestionsSlide } from './slides/QuestionsSlide';
 
 const slides = [
@@ -36,12 +31,7 @@ BestPracticesSlide,
 FolderStructureSlide,
 ProjectSetupSlide,
 DemoCodeSlide,
-// RunDemoSlide,
-// WhatDemoDoesSlide,
-// ComparisonIntroSlide,
 ComparisonTableSlide,
-// KeyDifferencesSlide,
-// SummarySlide,
 QuestionsSlide];
 
 export function Presentation() {

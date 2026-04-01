@@ -1,8 +1,7 @@
-import React from 'react';
 import { SlideLayout } from '../SlideLayout';
 import { CodeBlock } from '../CodeBlock';
 import { motion } from 'framer-motion';
-import { FolderIcon, FileCodeIcon } from 'lucide-react';
+import { FolderIcon } from 'lucide-react';
 export function FolderStructureSlide() {
   const structure = `project/
 ├── app.js              # Main application file
@@ -46,7 +45,11 @@ export function FolderStructureSlide() {
       
       <div className="flex flex-col lg:flex-row gap-8 w-full">
         <div className="flex-1">
-          <CodeBlock code={structure} language="text" className="!text-lg !p-12 !min-h-[420px] !w-full" />
+          <CodeBlock
+            code={structure}
+            language="text"
+            className="!p-8 md:!p-10 !min-h-[460px] !w-full"
+            preClassName="!text-sm md:!text-lg !leading-8" />
         </div>
         <motion.div
           initial={{
