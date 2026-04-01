@@ -15,6 +15,8 @@ import { FolderStructureSlide } from './slides/FolderStructureSlide';
 import { ProjectSetupSlide } from './slides/ProjectSetupSlide';
 import { DemoCodeSlide } from './slides/DemoCodeSlide';
 import { ComparisonTableSlide } from './slides/ComparisonTableSlide';
+import { SummarySlide } from './slides/SummarySlide';
+import { ResourcesSlide } from './slides/ResourcesSlide';
 import { QuestionsSlide } from './slides/QuestionsSlide';
 
 const slides = [
@@ -32,6 +34,8 @@ FolderStructureSlide,
 ProjectSetupSlide,
 DemoCodeSlide,
 ComparisonTableSlide,
+SummarySlide,
+ResourcesSlide,
 QuestionsSlide];
 
 export function Presentation() {
