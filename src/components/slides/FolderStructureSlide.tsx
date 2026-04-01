@@ -45,8 +45,8 @@ export function FolderStructureSlide() {
       subtitle="Organize Your Code">
       
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
-        <div className="lg:col-span-3">
-          <CodeBlock code={structure} language="text" />
+        <div className="lg:col-span-4">
+          <CodeBlock code={structure} language="text" className="!text-base !p-8" />
         </div>
         <motion.div
           initial={{

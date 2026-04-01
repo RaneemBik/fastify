@@ -16,7 +16,7 @@ import { ProjectSetupSlide } from './slides/ProjectSetupSlide';
 import { DemoCodeSlide } from './slides/DemoCodeSlide';
 // import { RunDemoSlide } from './slides/RunDemoSlide';
 // import { WhatDemoDoesSlide } from './slides/WhatDemoDoesSlide';
-import { ComparisonIntroSlide } from './slides/ComparisonIntroSlide';
+// import { ComparisonIntroSlide } from './slides/ComparisonIntroSlide';
 import { ComparisonTableSlide } from './slides/ComparisonTableSlide';
 import { KeyDifferencesSlide } from './slides/KeyDifferencesSlide';
 // import { SummarySlide } from './slides/SummarySlide';
@@ -38,7 +38,7 @@ ProjectSetupSlide,
 DemoCodeSlide,
 // RunDemoSlide,
 // WhatDemoDoesSlide,
-ComparisonIntroSlide,
+// ComparisonIntroSlide,
 ComparisonTableSlide,
 KeyDifferencesSlide,
 // SummarySlide,
